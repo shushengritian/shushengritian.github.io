@@ -1,0 +1,39 @@
+I"�<blockquote>
+  <p>“let’s start”</p>
+</blockquote>
+
+<p>作为一个程序员，接触新的东西总要从Hello World开始</p>
+
+<h2 id="正文">正文</h2>
+<div class="language-coq highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="no">Hello</span><span class="w"> </span><span class="no">World</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></div></div>
+<p>搭建这个博客主要是做一些学习记录，在网上找了一些方案和主题，感觉<a href="https://pages.github.com/">GitHub Pages</a> + <a href="http://jekyllrb.com/">Jekyll</a> 快速 Building Blog 的方案挺适合。</p>
+
+<p>优点：</p>
+<ul>
+  <li><strong>Markdown</strong> 写作比较简洁优雅</li>
+  <li>利用 GitHub Pages 的域名和免费无限空间，不用自己折腾主机
+    <ul>
+      <li>如果需要自定义域名，也只需要简单改改 DNS 加个 CNAME 就好了</li>
+    </ul>
+  </li>
+</ul>
+
+<p>缺点：</p>
+<ul>
+  <li>加载可能会比较慢</li>
+</ul>
+
+<hr />
+
+<p>搭建是直接fork了Hux Blog的主题，然后进行了自定义，浏览了一遍jekyll官方文档，按着demo自己体验了一下各个目录的功能，流程还是比较好理解的。</p>
+
+<p>本地调试环境需要 <code class="language-plaintext highlighter-rouge">gem install jekyll</code>，<a href="https://www.jekyll.com.cn/docs/">Jekyll</a>官网有完整的中文教程，
+完成之后进行了本地调试，接下来就是正式的写作了。</p>
+
+<h2 id="后记">后记</h2>
+
+<p>不积跬步，无以至千里；不积小流，无以成江海。</p>
+
+:ET

@@ -1,0 +1,20 @@
+1.title --标题 Hello World
+2.subtitle --子标题 hello blog
+3.layout --模板 post
+4.author --作者 fengh
+5.header-style --头部样式 text
+6.hidden --是否封存 true
+7.tags --标签 Java
+8.header-img --头部背景图片 "img/about-bg.jpg"
+9.catalog --是否开启目录 true
+10.date --时间 2019-12-01
+11.iframe --引入  "//shushengritian.github.io/pwa-in-my-pov/"
+12.navcolor --导航颜色 "invert"
+13.header-mask --头部隐藏 0.3
+14.lang --语言 en
+15.mathjax --XXX true
+16.nav-style --导航样式 "invert"
+17.multilingual --多语言 true
+18.header-img-credit --图片来源 "@XXX"
+19.header-img-credit-href --图片来源路径 "XXX.com/XXXX.jpg"
+20.header-bg-css --头部背景css "linear-gradient(to right, #82838a, #82838a);"
