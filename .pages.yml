@@ -6,6 +6,7 @@ collections:
   - name: posts
     label: 文章
     path: src/content/posts
+    extension: md
     view:
       fields: [title, published, tags]
     fields:
