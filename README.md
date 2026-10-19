@@ -1,176 +1,99 @@
-# FH blog 
+# 🍥Fuwari  
+![Node.js >= 20](https://img.shields.io/badge/node.js-%3E%3D20-brightgreen) 
+![pnpm >= 9](https://img.shields.io/badge/pnpm-%3E%3D9-blue) 
+[![DeepWiki](https://img.shields.io/badge/DeepWiki-saicaca%2Ffuwari-blue.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/SQc0ICFQgzfc4CYZoTPAswgSJCCUJUnAAoRHOAUOcATwbmVLWdGoH//PB8mnKqScAhsD0kYP3j/Yt5LPQe2KvcXmGvRHcDnpxfL2zOYJ1mFwrryWTz0advv1Ut4CJgf5uhDuDj5eUcAUoahrdY/56ebRWeraTjMt/00Sh3UDtjgHtQNHwcRGOC98BJEAEymycmYcWwOprTgcB6VZ5JK5TAJ+fXGLBm3FDAmn6oPPjR4rKCAoJCal2eAiQp2x0vxTPB3ALO2CRkwmDy5WohzBDwSEFKRwPbknEggCPB/imwrycgxX2NzoMCHhPkDwqYMr9tRcP5qNrMZHkVnOjRMWwLCcr8ohBVb1OMjxLwGCvjTikrsBOiA6fNyCrm8V1rP93iVPpwaE+gO0SsWmPiXB+jikdf6SizrT5qKasx5j8ABbHpFTx+vFXp9EnYQmLx02h1QTTrl6eDqxLnGjporxl3NL3agEvXdT0WmEost648sQOYAeJS9Q7bfUVoMGnjo4AZdUMQku50McDcMWcBPvr0SzbTAFDfvJqwLzgxwATnCgnp4wDl6Aa+Ax283gghmj+vj7feE2KBBRMW3FzOpLOADl0Isb5587h/U4gGvkt5v60Z1VLG8BhYjbzRwyQZemwAd6cCR5/XFWLYZRIMpX39AR0tjaGGiGzLVyhse5C9RKC6ai42ppWPKiBagOvaYk8lO7DajerabOZP46Lby5wKjw1HCRx7p9sVMOWGzb/vA1hwiWc6jm3MvQDTogQkiqIhJV0nBQBTU+3okKCFDy9WwferkHjtxib7t3xIUQtHxnIwtx4mpg26/HfwVNVDb4oI9RHmx5WGelRVlrtiw43zboCLaxv46AZeB3IlTkwouebTr1y2NjSpHz68WNFjHvupy3q8TFn3Hos2IAk4Ju5dCo8B3wP7VPr/FGaKiG+T+v+TQqIrOqMTL1VdWV1DdmcbO8KXBz6esmYWYKPwDL5b5FA1a0hwapHiom0r/cKaoqr+27/XcrS5UwSMbQAAAABJRU5ErkJggg==)](https://deepwiki.com/saicaca/fuwari)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari?ref=badge_shield&issueType=license)
 
-### [我的博客在这里 &rarr;](http://shushengritian.github.io)
+A static blog template built with [Astro](https://astro.build).
 
-## 说明文档
+[**🖥️ Live Demo (Vercel)**](https://fuwari.vercel.app)
 
-* 开始
-	* [环境要求](#environment)
-	* [开始](#get-started)
-	* [写一篇博文](#write-posts)
-* 组件
-	* [侧边栏](#sidebar)
-	* [迷你关于我](#mini-about-me)
-	* [推荐标签](#featured-tags)
-	* [好友链接](#friends)
-	* [HTML5 演示文档布局](#keynote-layout)
-* 高级部分
-	* [自定义](#customization)
-	* [标题底图](#header-image)
-	* [搜索展示标题-头文件](#seo-title)
+![Preview Image](https://raw.githubusercontent.com/saicaca/resource/main/fuwari/home.png)
 
-#### Environment
+🌏 README in
+[**中文**](https://github.com/saicaca/fuwari/blob/main/docs/README.zh-CN.md) /
+[**日本語**](https://github.com/saicaca/fuwari/blob/main/docs/README.ja.md) /
+[**한국어**](https://github.com/saicaca/fuwari/blob/main/docs/README.ko.md) /
+[**Español**](https://github.com/saicaca/fuwari/blob/main/docs/README.es.md) /
+[**ไทย**](https://github.com/saicaca/fuwari/blob/main/docs/README.th.md) /
+[**Tiếng Việt**](https://github.com/saicaca/fuwari/blob/main/docs/README.vi.md) /
+[**Bahasa Indonesia**](https://github.com/saicaca/fuwari/blob/main/docs/README.id.md) (Provided by the community and may not always be up-to-date)
 
-需要 Ruby 3.x 和 Bundler。依赖由 `Gemfile` 里的 `github-pages` gem 锁定，与 GitHub Pages 线上构建环境一致。
+## ✨ Features
 
-```
-bundle install            # 首次安装依赖
-bundle exec jekyll serve  # 本地预览，浏览器打开 http://localhost:4000/
-```
+- [x] Built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com)
+- [x] Smooth animations and page transitions
+- [x] Light / dark mode
+- [x] Customizable theme colors & banner
+- [x] Responsive design
+- [x] Search functionality with [Pagefind](https://pagefind.app/)
+- [x] [Markdown extended features](https://github.com/saicaca/fuwari?tab=readme-ov-file#-markdown-extended-syntax)
+- [x] Table of contents
+- [x] RSS feed
 
+## 🚀 Getting Started
 
-#### Get Started
+1. Create your blog repository:
+    - [Generate a new repository](https://github.com/saicaca/fuwari/generate) from this template or fork this repository.
+    - Or run one of the following commands:
+       ```sh
+       npm create fuwari@latest
+       yarn create fuwari
+       pnpm create fuwari@latest
+       bun create fuwari@latest
+       deno run -A npm:create-fuwari@latest
+       ```
+2. To edit your blog locally, clone your repository, run `pnpm install` to install dependencies.
+    - Install [pnpm](https://pnpm.io) `npm install -g pnpm` if you haven't.
+3. Edit the config file `src/config.ts` to customize your blog.
+4. Run `pnpm new-post <filename>` to create a new post and edit it in `src/content/posts/`.
+5. Deploy your blog to Vercel, Netlify, GitHub Pages, etc. following [the guides](https://docs.astro.build/en/guides/deploy/). You need to edit the site configuration in `astro.config.mjs` before deployment.
 
-你可以通用修改 `_config.yml`文件来轻松的开始搭建自己的博客:
+## 📝 Frontmatter of Posts
 
-```
-# Site settings
-title: FengH Blog           # 你的博客网站标题
-SEOTitle: FengH Blog		# 在后面会详细谈到
-description: "Cool Blog"    # 随便说点，描述一下
-
-# SNS settings      
-github_username: shushengritian     # 你的github账号
-weibo_username: xiyouquedongxing    # 你的微博账号，底部链接会自动更新的。
-
-# Build settings
-# paginate: 10              # 一页你准备放几篇文章
-```
-
-Jekyll官方网站还有很多的参数可以调，比如设置文章的链接形式...网址在这里：[Jekyll - Official Site](http://jekyllrb.com/) 中文版的在这里：[Jekyll中文](http://jekyllcn.com/).
-
-#### write-posts
-
-要发表的文章一般以markdown的格式放在这里`_posts/`，格式yyyy-MM-dd-articleName.markdown。
-
-yaml 头文件长这样:
-
-```
+```yaml
 ---
-layout:     post
-title:      "Hello World"
-subtitle:   "Hello World Hello Blog"
-date:       2019-12-12 20:00:00
-author:     "FengH"
-header-img: "img/post-bg.jpg"
-tags:
-    - Demo
----
-
-```
-
-#### SideBar
-
-看右边:
-![](http://shushengritian/img/blog-sidebar.jpg)
-
-设置是在 `_config.yml`文件里面的`Sidebar settings`那块。
-```
-# Sidebar settings
-sidebar: true  #添加侧边栏
-sidebar-about-description: "简单的描述一下你自己"
-sidebar-avatar: /img/avatar-fengh.jpg     #你的大头贴，请使用绝对地址.
-```
-
-侧边栏是响应式布局的，当屏幕尺寸小于992px的时候，侧边栏就会移动到底部。具体请见bootstrap栅格系统 <http://v3.bootcss.com/css/>
-
-
-#### Mini About Me
-
-Mini-About-Me 这个模块将在你的头像下面，展示你所有的社交账号。这个也是响应式布局，当屏幕变小时候，会将其移动到页面底部，只不过会稍微有点小变化，具体请看代码。
-
-#### Featured Tags
-
-这个模块现在是独立的，可以呈现在所有页面，包括主页和发表的每一篇文章标题的头上。
-
-```
-# Featured Tags
-featured-tags: true  
-featured-condition-size: 1     # A tag will be featured if the size of it is more than this condition value
-```
-
-唯一需要注意的是`featured-condition-size`: 如果一个标签的 SIZE，也就是使用该标签的文章数大于上面设定的条件值，这个标签就会在首页上被推荐。
- 
-内部有一个条件模板 `{% if tag[1].size > {{site.featured-condition-size}} %}` 是用来做筛选过滤的.
-
-
-#### Friends
-
-好友链接部分。这会在全部页面显示。
-
-设置是在 `_config.yml`文件里面的`Friends`那块，自己加吧。
-
-```
-# Friends
-friends: [
-    {
-        title: "Abc Blog",
-        href: "http://Abc.github.io/"
-    },
-    {
-        title: "Xyz Blog",
-        href: "http://Xyz.github.io"
-    }
-]
-```
-
-
-#### Keynote Layout
-
-HTML5幻灯片的排版：
-
-![](http://shushengritian.github.io/img/blog-keynote.jpg)
-
-这部分是用于占用html格式的幻灯片的，一般用到的是 Reveal.js, Impress.js, Slides, Prezi 等等.
-其主要原理是添加一个 `iframe`，在里面加入外部链接。你可以直接写到头文件里面去，详情请见下面的yaml头文件的写法。
-
-```
----
-layout:     keynote
-iframe:     "http://shushengritian.github.io/js-module-7day/"
+title: My First Blog Post
+published: 2023-09-09
+description: This is the first post of my new Astro blog.
+image: ./cover.jpg
+tags: [Foo, Bar]
+category: Front-end
+draft: false
+lang: jp      # Set only if the post's language differs from the site's language in `config.ts`
 ---
 ```
 
-iframe在不同的设备中，将会自动的调整大小。保留内边距是为了让手机用户可以向下滑动，以及添加更多的内容。
+## 🧩 Markdown Extended Syntax
 
+In addition to Astro's default support for [GitHub Flavored Markdown](https://github.github.com/gfm/), several extra Markdown features are included:
 
-#### Customization
+- Admonitions ([Preview and Usage](https://fuwari.vercel.app/posts/markdown-extended/#admonitions))
+- GitHub repository cards ([Preview and Usage](https://fuwari.vercel.app/posts/markdown-extended/#github-repository-cards))
+- Enhanced code blocks with Expressive Code ([Preview](https://fuwari.vercel.app/posts/expressive-code/) / [Docs](https://expressive-code.com/))
 
-如果你喜欢折腾，你可以去自定义我的这个模板的 code，[Grunt](gruntjs.com)已经为你准备好了。
+## ⚡ Commands
 
-JavaScript 的压缩混淆、Less 的编译、Apache 2.0 许可通告的添加与 watch 代码改动，这些任务都揽括其中。简单的在命令行中输入 `grunt` 就可以执行默认任务来帮你构建文件了。如果你想搞一搞 JavaScript 或 Less 的话，`grunt watch` 会帮助到你的。
+All commands are run from the root of the project, from a terminal:
 
-**如果你可以理解 `_include/` 和 `_layouts/`文件夹下的代码（这里是整个界面布局的地方），你就可以使用 Jekyll 使用的模版引擎 [Liquid](https://github.com/Shopify/liquid/wiki)的语法直接修改/添加代码，来进行更有创意的自定义界面啦！**
+| Command                    | Action                                              |
+|:---------------------------|:----------------------------------------------------|
+| `pnpm install`             | Installs dependencies                               |
+| `pnpm dev`                 | Starts local dev server at `localhost:4321`         |
+| `pnpm build`               | Build your production site to `./dist/`             |
+| `pnpm preview`             | Preview your build locally, before deploying        |
+| `pnpm check`               | Run checks for errors in your code                  |
+| `pnpm format`              | Format your code using Biome                        |
+| `pnpm new-post <filename>` | Create a new post                                   |
+| `pnpm astro ...`           | Run CLI commands like `astro add`, `astro check`    |
+| `pnpm astro --help`        | Get help using the Astro CLI                        |
 
-#### Header Image
+## ✏️ Contributing
 
-标题底图是可以自己选的，看看几篇示例post你就知道如何设置了。
-  
-标题底图的选取完全是看个人的审美了。每一篇文章可以有不同的底图，你想放什么就放什么，最后宽度要够，大小不要太大，否则加载慢啊。
+Check out the [Contributing Guide](https://github.com/saicaca/fuwari/blob/main/CONTRIBUTING.md) for details on how to contribute to this project.
 
-但是需要注意的是本模板的标题是**白色**的，所以背景色要设置为**灰色**或者**黑色**，总之深色系就对了。当然你还可以自定义修改字体颜色，总之，用github pages就是可以完全的个性定制自己的博客。
+## 📄 License
 
-#### SEO Title
+This project is licensed under the MIT License.
 
-我的博客标题是 **“FengH Blog”** 但是我想要在搜索的时候显示 **“西游却东行的博客 | FengH Blog”** ，这个就需要SEO Title来定义了。
-
-其实这个SEO Title就是定义了<head><title>标题</title></head>这个里面的东西，你可以自行修改的。
-
-## 致谢
-
-1. 这个模板是从这里[HUx](https://github.com/Huxpro/huxpro.github.io)  fork 的。 感谢Hux
-
-2. 感谢 Jekyll、Github Pages 和 Bootstrap!
-
-
-
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari.svg?type=large&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari?ref=badge_large&issueType=license)

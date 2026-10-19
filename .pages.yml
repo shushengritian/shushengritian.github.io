@@ -1,0 +1,35 @@
+media:
+  output: public/images
+  publicPath: /images
+
+collections:
+  - name: posts
+    label: 文章
+    path: src/content/posts
+    view:
+      fields: [title, published, tags]
+    fields:
+      - name: title
+        label: 标题
+        type: string
+        required: true
+      - name: published
+        label: 发布日期
+        type: datetime
+        required: true
+      - name: description
+        label: 摘要
+        type: text
+      - name: tags
+        label: 标签
+        type: list
+      - name: category
+        label: 分类
+        type: string
+      - name: draft
+        label: 草稿
+        type: boolean
+        default: false
+      - name: body
+        label: 正文
+        type: rich-text
