@@ -27,7 +27,7 @@ twitter_username:   shushengritian
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","package-lock.json","README.md","README.zh.md","Gemfile","Gemfile.lock","LICENSE","vendor"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
 timezone: Asia/Shanghai
@@ -55,27 +55,6 @@ kramdown:
     block:
       line_numbers: true
       start_line: 1
-
-
-
-# Disqus settings
-disqus_username: xiyouquedongxing
-
-# duoshuo settings
-duoshuo_username: xiyouquedongxing
-
-# Netease settings
-netease_comment: false
-
-
-
-# Analytics settings
-# Baidu Analytics 
-# ba_track_id: [your track id]
-
-# Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto
 
 
 
