@@ -14,9 +14,6 @@
 	* [推荐标签](#featured-tags)
 	* [好友链接](#friends)
 	* [HTML5 演示文档布局](#keynote-layout)
-* 评论与 Google/Baidu Analytics
-	* [评论](#comment)
-	* [网站分析](#analytics) 
 * 高级部分
 	* [自定义](#customization)
 	* [标题底图](#header-image)
@@ -24,9 +21,12 @@
 
 #### Environment
 
-如果你安装了jekyll，那你只需要在命令行输入`jekyll serve`，在浏览器中打开http://localhost:4000/进行预览。
+需要 Ruby 3.x 和 Bundler。依赖由 `Gemfile` 里的 `github-pages` gem 锁定，与 GitHub Pages 线上构建环境一致。
 
-官方文件是建议安装bundler，这样你在本地的效果就跟在github上面是一样的。详情请见这里：https://help.github.com/articles/using-jekyll-with-pages/#installing-jekyll
+```
+bundle install            # 首次安装依赖
+bundle exec jekyll serve  # 本地预览，浏览器打开 http://localhost:4000/
+```
 
 
 #### Get Started
@@ -144,40 +144,6 @@ iframe:     "http://shushengritian.github.io/js-module-7day/"
 iframe在不同的设备中，将会自动的调整大小。保留内边距是为了让手机用户可以向下滑动，以及添加更多的内容。
 
 
-#### Comment
-
-博客不仅支持多说[Duoshuo](http://duoshuo.com)评论系统，也支持[Disqus](http://disqus.com)评论系统。
-
-`Disqus`优点是：国际比较流行，界面也很大气、简介，如果有人评论，还能实时通知，直接回复通知的邮件就行了；缺点是：评论必须要去注册一个disqus账号，分享一般只有Facebook和Twitter，另外在墙内加载速度略慢了一点。想要知道长啥样，可以看以前的版本点[这里](http://brucezhaor.github.io/about.html) 最下面就可以看到。
-
-`多说` 优点是：支持国内各主流社交软件(微博，微信，豆瓣，QQ空间 ...)一键分享按钮功能，另外登陆比较方便，管理界面也是纯中文的，相对于disqus全英文的要容易操作一些；缺点是：就是界面丑了一点。
-当然你是可以自定义界面的css的，详情请看多说开发者文档 http://dev.duoshuo.com/docs/5003ecd94cab3e7250000008 。
-
-**首先**，你需要去注册一个账号，不管是disqus还是多说的。**不要直接使用我的啊！**
-
-**其次**，你只需要在下面的yaml头文件中设置一下就可以了。
-
-```
-duoshuo_username: _你的用户名_
-# 或者
-disqus_username: _你的用户名_
-```
-
-**最后**多说是支持分享的，如果你不想分享，请这样设置：`duoshuo_share: false`。你可以同时使用两个评论系统，不过个人感觉怪怪的。
-
-#### Analytics
-
-网站分析，现在支持百度统计和Google Analytics。需要去官方网站注册一下，然后将返回的code贴在下面：
-
-```
-# Baidu Analytics
-ba_track_id: your ba_track_id
-
-# Google Analytics
-ga_track_id: your ga_track_id    # 你用Google账号去注册一个就会给你一个这样的id
-ga_domain: auto		# 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
-```
-
 #### Customization
 
 如果你喜欢折腾，你可以去自定义我的这个模板的 code，[Grunt](gruntjs.com)已经为你准备好了。
@@ -198,7 +164,7 @@ JavaScript 的压缩混淆、Less 的编译、Apache 2.0 许可通告的添加�
 
 我的博客标题是 **“FengH Blog”** 但是我想要在搜索的时候显示 **“西游却东行的博客 | FengH Blog”** ，这个就需要SEO Title来定义了。
 
-其实这个SEO Title就是定义了<head><title>标题</title></head>这个里面的东西和多说分享的标题，你可以自行修改的。
+其实这个SEO Title就是定义了<head><title>标题</title></head>这个里面的东西，你可以自行修改的。
 
 ## 致谢
 
