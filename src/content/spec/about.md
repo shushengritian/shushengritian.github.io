@@ -1,9 +1,11 @@
-# About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+# 关于
 
-::github{repo="saicaca/fuwari"}
+这是我的个人博客，用来记录学习、梳理知识体系、练习写作和表达。
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+技术栈：Astro + GitHub Pages + Pages CMS
+
+## 联系方式
+
+- GitHub: [@shushengritian](https://github.com/shushengritian)
+- 知乎: [西游却东行](https://www.zhihu.com/people/xiyouquedongxing)
+- 微博: [@西游却东行](https://weibo.com/xiyouquedongxing)
